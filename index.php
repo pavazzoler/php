@@ -9,6 +9,6 @@ $conn = mysqli_connect($servername, $username, $password, $database);
 if (!$conn) {
     die("Nao Conectado com o Banco de Dados!" . mysqli_connect_error());
 }
-echo "Conectado com o Banco de Dados!";
+echo "Conectado com o Banco de Dados!!";
 mysqli_close($conn);
 ?>
